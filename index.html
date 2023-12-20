@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<title>IESCE IEDC</title>
+<!-- Stylesheets -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<!-- Responsive File -->
+<link href="assets/css/responsive.css" rel="stylesheet">
+<!-- Color File -->
+<link href="assets/css/color.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&amp;family=Yantramanav:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+<link rel="icon" href="logo.jpg" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College IEDC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #343a40;
+            padding: 15px;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand, .navbar-nav .nav-link {
+            color: rgb(3, 3, 3);
+            
+            font-weight: bold;
+        }
+
+        .navbar-toggler-icon {
+            background-color: rgb(8, 8, 8);
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-nav .nav-item {
+            padding-top: 40px;
+            margin-right: 15px;
+            font-size: larger;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #17a2b8;
+        }
+
+        /* Header Section */
+        #header-section {
+            text-align: center;
+            padding: 50px 0;
+            background-image: url(back.jpg) ;
+            width: 100%;
+            height: 900px;
+            /* background-color: #343a40; */
+            color: white;
+        }
+
+        #header-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        #header-section p {
+            font-size: 1.2em;
+        }
+
+        /* Sections */
+        section {
+            background-color: white;
+            padding: 40px 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 ,h3{
+            color: #007bff;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Carousels */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+
+        .testimonial-carousel-item,
+        .team-carousel-item {
+            text-align: center;
+        }
+
+        .carousel-item p {
+            margin-top: 15px;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            font-size: 1em;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 767px) {
+            .navbar-brand {
+                font-size: 1.5em;
+            }
+
+            #header-section h1 {
+                font-size: 2em;
+            }
+
+            #header-section p {
+                font-size: 1em;
+            }
+
+            h2 {
+                font-size: 1.8em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            footer p {
+                font-size: 0.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white">
+        <a class="navbar-brand" href="#"><img src="logo1.png" alt="College IEDC Logo" style="height: 100px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-dark" href="#introduction">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#announcements">Flow chart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#event">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#testimonial">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#contact">Contact us</a>
+                </li>
+               
+            </ul>
+        </div>
+    </nav>
+
+    <section id="header-section">
+        <div style="margin-top: 300px;">
+        <h1 style="color: #F3F8FF;">INNOVATION AND ENTREPRENEURSHIP DEVELOPMENT CELL</h1>
+        <p style="color: #FFECD6;">IES COLLEGE OF ENGINEERING</p>
+        <div class="link-box">
+            <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>ENROLL NOW! </span></a>
+        </div>
+    </div>
+    </section>
+   
+    
+
+    <section id="introduction">
+        <h2>About Us</h2>
+        <p>The Institute has an Innovation and Entrepreneurship Development Cell (IES IEDC) established in 2016. Innovation and Entrepreneurship Development Centre (IEDC) is a flagship initiative of Kerala Startup Mission to promote innovation and entrepreneurship among the student and academic fraternity in the educational institutions in the State of Kerala and considered as an umbrella programme that would play an instrumental role in fostering innovation culture in Academic institutions. It is a student's organization established in the institution devoted in promoting the spirit of entrepreneurship among themselves. It also aims to conduct ED courses for students with the help of Kerala Startup Mission MSME & EDI, India.</p>
+
+        <h3>Vision</h3> 
+        <p> To inculcate an innovation culture among the students, to create future entrepreneurs and position the institution, as a learning, innovationand entrepreneurial hub.</p>
+
+
+        <h3>Mission</h3> 
+        <p>To establish an innovation platform by introducing the State-of-the-art technologies through promoting innovation and entrepreneurship.</p>
+        
+           
+        <H2> Aim Of IEDC</H2>
+            
+        <P> To promote an innovation driven entrepreneurship culture among the students
+         
+         To develop and promote commercially viable innovative products and solutions from the students.
+         
+         To promote a spirit of enterprise among budding technopreneurs
+         
+         To bridge the gap between Industry and Academia</P>
+         
+        <H2>Functions OF IEDC</H2> 
+         
+        <P> To create awareness and interest among faculties and students through workshops and Hackathons and FDPs
+         
+         To motivate, support and mentor students for identification, development and commercialisation of their innovative ideas
+         
+         To create a platform for the young brains to develop their skills and to give proper technological exposure
+         
+         To provide Technology & Management Skill Training to the students and Faculties in building their innovative product or solution.
+         
+         To create specialisation hubs for promoting the culture of Entrepreneurship among the student communities</P>
+     <!-- About section content -->
+        <!-- Aim, Mission, Vision section content -->
+    </section>
+
+    
+    <section id="announcements">
+        <h2>FLOW CHART</h2>
+      <img src="flow.jpeg" style="padding-left: 17rem;">
+    </section>
+
+   
+
+
+
+
+
+    
+   
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+    <!-- Team Section -->
+    <section id="team" class="team-section style-three">
+        <div class="auto-container">
+            <div class="content-box">
+                <div class="content-wrapper">
+                    <div class="title">
+                        <h2 style="padding-bottom: 5%;"><strong>IES IEDC TEAM </strong></h2>
+                    </div>
+                </div>                    
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="princ.jpg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">Principal</div>
+                            <h4>Dr.Brilly S Sangeetha</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">Principal</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="image"><img src="sha.jpeg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">Nodal officer</div>
+                            <h4>Shahaziya</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">Nodal officer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="prab.jpeg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">Asst Nodal officer</div>
+                            <h4>Prabhamenon</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">Asst Nodal officer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="shabir.jpeg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">Student Lead I</div>
+                            <h4>Shabir ibrahim</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">Student Lead I</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
+                        <div class="image"><img src="leslin.jpeg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">Student Lead II</div>
+                            <h4>Leslin Shaju</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">Student Lead II</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="ANGIO .jpeg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">QUALITY & OPERATIONS LEAD</div>
+                            <h4>ANGIO JAMES</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">QUALITY & OPERATIONS LEAD</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="hari.jpeg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">TECHNOLOGY LEAD</div>
+                            <h4>HARIKRISHNAN TB</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">TECHNOLOGY LEAD</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="SALMAN.jpeg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">BRANDING & MARKETING LEAD</div>
+                            <h4>MOHAMMED SALMAN</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">BRANDING & MARKETING LEAD</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="agnel.jpeg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">CREATIVE & INNOVATION LEAD</div>
+                            <h4>AGNEL CHRISTY REASON</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">CREATIVE & INNOVATION LEAD</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="leslin.jpeg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">WOMEN INNOVATION LEAD</div>
+                            <h4>LESLIN SHAJU</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">WOMEN INNOVATION LEAD</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="HIMAL.jpeg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">COMMUNITY LEAD</div>
+                            <h4>HIMAL BENTOM M</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">COMMUNITY LEAD</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="AMAL.jpeg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">FINANCE LEAD</div>
+                            <h4>AMALDEEP BIJU</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">FINANCE LEAD</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>             
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="sandra.jpeg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">IPR & RESEARCH LEAD</div>
+                            <h4>SANDRA P S </h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">IPR & RESEARCH LEAD</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="ANANDKRISH.jpeg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">WEB DEVELOPMENT LEAD</div>
+                            <h4>ANANTHAKRISHNA K U</h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">WEB DEVELOPMENT LEAD</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 team-blcok">
+                    <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
+                        <div class="image"><img src="aliya.jpeg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">CRAFT ALLIES</div>
+                            <h4>ALIYA </h4>
+                            <div class="hover-content">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                                <div class="designation">CRAFT ALLIES</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- News Section -->
+ <section id="event" class="news-section">
+    <div class="auto-container">
+        <div class="content-box">
+            <div class="content-wrapper">
+                <div class="title">
+                    <h2 style="padding-bottom: 5%;"><strong>IES IEDC EVENTS </strong></h2>
+                </div>
+            </div>                    
+        </div>
+        <div class="row">
+            <div class="news-block-one col-lg-4 col-md-6">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="blog-details.php"><img src="bootcamp.jpg" alt=""></a>
+                        <div class="date">27<br> NOV</div>
+                    </div>
+                    <div class="lower-content">
+                        <div class="category"><i class="fas fa-folder"></i> Bootcamp'23</div>
+                        <h3><a href="blog-details.php">Bootcamp'23 <br>  NOV 27 & 28</a></h3>
+                        <div class="text">IESIEDC organised a 2 day Bootcamp for <br>student innovators </div>
+                        <!-- <div class="link">
+                            <a href="blog-details.php" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
+                        </div> -->
+                    </div>
+                    <div class="overlay">
+                        <div class="image">
+                            <a href="blog-details.php"><img src="boot2.jpg" alt=""></a>
+                            <div class="date">27 <br> NOV</div>
+                        </div>
+                        <div class="lower-content">
+                            <div class="category"><i class="fas fa-folder"></i> Bootcamp'23</div>
+                            <h3><a href="">knowledge resources needed to become successful innovators.</a></h3>
+                            <!-- <div class="link">
+                                <a href="blog-details.php" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-block-one col-lg-4 col-md-6">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="blog-details.php"><img src="3d1.jpeg" alt=""></a>
+                        <div class="date">21 <br> NOV</div>
+                    </div>
+                    <div class="lower-content">
+                        <div class="category"><i class="fas fa-folder"></i> 3D Printing</div>
+                        <h3><a href="blog-details.php">3D Printing<br> NOV 21</a></h3>
+                        <div class="text"> IEDC had organized a workshop  to train the students in <br> 3D printing</div>
+                        <!-- <div class="link">
+                            <a href="blog-details.php" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
+                        </div> -->
+                    </div>
+                    <div class="overlay">
+                        <div class="image">
+                            <a href="blog-details.php"><img src="3d2.jpeg" alt=""></a>
+                            <div class="date">14 <br> May</div>
+                        </div>
+                        <div class="lower-content">
+                            <div class="category"><i class="fas fa-folder"></i>3D Printing</div>
+                            <h3><a href="blog-details.php">IES-IEDC  has been in the forefront, to familiarize the students with  the  latest technology</a></h3>
+                            <!-- <div class="link">
+                                <a href="blog-details.php" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-block-one col-lg-4 col-md-6">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="blog-details.php"><img src="nasa1.jpeg" alt=""></a>
+                        <div class="date">05 <br> May</div>
+                    </div>
+                    <div class="lower-content">
+                        <div class="category"><i class="fas fa-folder"></i> NASA SPACE APP CHALLENGE</div>
+                        <h3><a href="blog-details.php"> NASA SPACE APP CHALLENGE <br>SEP 26 </a></h3>
+                        <div class="text">On September 26, 2023: The IEDC cell of IES College of Engineering hosted a highly informative NASA Space App Challenge Boot Camp by Unique world Robotics</div>
+                        <!-- <div class="link">
+                            <a href="blog-details.php" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
+                        </div> -->
+                    </div>
+                    <div class="overlay">
+                        <div class="image">
+                            <a href="blog-details.php"><img src="nasa2.jpeg" alt=""></a>
+                            <div class="date">05 <br> May</div>
+                        </div>
+                        <div class="lower-content">
+                            <div class="category"><i class="fas fa-folder"></i>  NASA SPACE APP CHALLENGE</div>
+                            <h3><a href="blog-details.php">designed to provide a comprehensive awareness of the NASA Space App Challenge and <br>its operational mechanics</a></h3>
+                            <!-- <div class="link">
+                                <a href="blog-details.php" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-block-one col-lg-4 col-md-6">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="blog-details.php"><img src="ard1.jpeg" alt=""></a>
+                        <div class="date">13 <br> SEP</div>
+                    </div>
+                    <div class="lower-content">
+                        <div class="category"><i class="fas fa-folder"></i> Arduino workshop</div>
+                        <h3><a href="blog-details.php">Arduino workshop <br>13,14,15 SEP</a></h3>
+                        <div class="text">A 3day Workshop on “Arduino & Simulation Plat forms” was conducted by Department of Electronics & Communication Engineering</div>
+                        <!-- <div class="link">
+                            <a href="blog-details.php" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
+                        </div> -->
+                    </div>
+                    <div class="overlay">
+                        <div class="image">
+                            <a href="blog-details.php"><img src="ard2.jpeg" alt=""></a>
+                            <div class="date">13 <br> SEP</div>
+                        </div>
+                        <div class="lower-content">
+                            <div class="category"><i class="fas fa-folder"></i> Arduino workshop</div>
+                            <h3><a href="blog-details.php">The speakers, Mr.Kathiru Santhilkumar, Chief Executive Officer, ThinkFo Tech Innovations, ,joined together done the introduction classes and hands on training</a></h3>
+                            <!-- <div class="link">
+                                <a href="blog-details.php" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-block-one col-lg-4 col-md-6">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="blog-details.php"><img src="sih1.jpeg" alt=""></a>
+                        <div class="date">16 <br> SEP</div>
+                    </div>
+                    <div class="lower-content">
+                        <div class="category"><i class="fas fa-folder"></i> SIH Internal Hackathon</div>
+                        <h3><a href="blog-details.php">SIH Internal Hackathon
+                          <br>  16 sep</a></h3>
+                        <div class="text">The IEDC cell of IES conducted a Internal <br>
+                            Hackathon for Smart India Hackathon 2023</div>
+                        <!-- <div class="link">
+                            <a href="blog-details.php" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
+                        </div> -->
+                    </div>
+                    <div class="overlay">
+                        <div class="image">
+                            <a href="blog-details.php"><img src="sih2.jpeg" alt=""></a>
+                            <div class="date">16 <br> SEP</div>
+                        </div>
+                        <div class="lower-content">
+                            <div class="category"><i class="fas fa-folder"></i> SIH Internal Hackathon</div>
+                            <h3><a href="blog-details.php">The main moto is the pitching of new ideas in students and making them
+                                realise their own capabilities.This event gave an opportunity to learn and share new concepts
+                                and ideas.</a></h3>
+                            <!-- <div class="link">
+                                <a href="blog-details.php" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-block-one col-lg-4 col-md-6">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="blog-details.php"><img src="tr1.jpeg" alt=""></a>
+                        <div class="date">5 <br> SEP</div>
+                    </div>
+                    <div class="lower-content">
+                        <div class="category"><i class="fas fa-folder"></i>Teacher's Day</div>
+                        <h3><a href="blog-details.php">Teacher's Day and
+                          <br> ECO WRITEZ Startup inauguration</a></h3>
+                        <div class="text">IES IEDC, in collaboration with NSS unit of IES, organized a multifaceted event that celebrated both Teacher's Day and marked the inauguration of the IEDC startup, Paper Pen.</div>
+                        <!-- <div class="link">
+                            <a href="blog-details.php" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
+                        </div> -->
+                    </div>
+                    <div class="overlay">
+                        <div class="image">
+                            <a href="blog-details.php"><img src="tr2.jpeg" alt=""></a>
+                            <div class="date">5 <br> SEP</div>
+                        </div>
+                        <div class="lower-content">
+                            <div class="category"><i class="fas fa-folder"></i>Teacher's Day and ECO WRITEZ Startup inauguration</div>
+                            <h3><a href="blog-details.php">The event aimed to convey the significance of teachers and their invaluable contributions to the lives of students, while also showcasing the innovative spirit of the IEDC through the inauguration of the Paper Pen startup.</a></h3>
+                            <!-- <div class="link">
+                                <a href="blog-details.php" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                  
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="testimonial">
+        <h2>Testimonials</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <p class="testimonial-text">"The IEDC played a crucial role in shaping my entrepreneurial journey. The mentorship and resources provided were invaluable."</p>
+                    <p class="testimonial-author">-Dr.Brilly S Sangeetha , Principal, IESCE</p>
+                </div>
+                <div class="carousel-item">
+                    <p class="testimonial-text">"Being a part of the IEDC community has been a transformative experience. It's a place where ideas come to life."</p>
+                    <p class="testimonial-author">- Jane Smith, Co-founder, ABC Ventures</p>
+                </div>
+                <div class="carousel-item">
+                    <p class="testimonial-text">"The supportive environment at the IEDC helped me turn my passion into a successful business."</p>
+                    <p class="testimonial-author">- Mary Johnson, Founder, InnovateTech</p>
+                </div>
+                <!-- Add more testimonials as needed -->
+            </div>
+            <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="">
+        <!-- <img src="logo2.png" alt="College IEDC Logo" style="height: 120px;"><img src="logo2.png" alt="College IEDC Logo" style="height: 120px;"><img src="logo2.png" alt="College IEDC Logo" style="height: 120px;">
+        <img src="logo.png" alt="College IEDC Logo" style="height: 120px;"> -->
+     <img src="footer.jpg" style="width: 100%;" alt="">
+    </section>
+   
+
+    <!--Main Footer-->
+    <footer id="contact"   class="main-footer" style="background-color:  #F3F3F3;">
+        <div class="upper-box">
+            <div class="auto-container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="widget contact-widget style-two">
+                            <h4>Do You Have Any Question? Please <br> Contact Our Team</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="wrapper-box">
+                                        <div class="icon-box">
+                                            <div class="icon"><span class="flaticon-calling"></span></div>
+                                            <div class="text"><strong>Phone</strong><a href="tel:(+91)9656220545">(+91)9656220545</a></div>
+                                        </div>
+                                        <div class="icon-box">
+                                            <div class="icon"><span class="flaticon-mail"></span></div>
+                                            <div class="text"><strong>Email</strong><a  href="mailto:iesceiedc@gmail.com">iesceiedc@gmail.com</a></div>
+                                        </div>
+                                        <ul class="social-icon">
+                                            <li><a href="https://www.instagram.com/iesiedc/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://in.linkedin.com/company/ies-iedc-iic?trk=public_post_follow-view-profile"><i class="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://youtube.com/@iesiedc?si=jp-vAZIMUJZG7Fzy"><i class="fab fa-youtube"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="icon-box">
+                                        <div class="icon"><span class="flaticon-mail"></span></div>
+                                        <div>
+                                            <div class="text"><strong>Mon - Friday</strong>09.00 am to 4.00pm</div>
+                                            <div class="text"><span>Saturday-Closed</span></div>
+                                            <div class="text"><span>Sunday-Closed</span></div>
+                                        </div>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="widget links-widget">
+                                    <h4 class="widget_title">Useful Links</h4>
+                                    <div class="widget-content">
+                                        <ul class="list">
+                                            <li><a href="#introduction">About us</a></li>
+                                            <!-- <li><a href="#">Get In Touch</a></li>
+                                            <li><a href="#">Industries Served</a></li>
+                                            <li><a href="#">Our Services</a></li>
+                                            <li><a href="#">Pricing & Plans</a></li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="widget instagram-widget">
+                                    <h4 class="widget_title">location</h4>
+                                    <div class="wrapper-box">
+                                        <section class="map-section">
+                                            <div class="contact-map">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.1792826534634!2d76.14671767570167!3d10.56513966305405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ec6ea648ed99%3A0x4546846953e9ee7c!2sIES%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1703052596611!5m2!1sen!2sin" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            </div>
+                                        </section> 
+                                    </div><!-- /.gallery-wrapper -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>               
+    </footer>
+    <!--End Main Footer-->
+
+    <div class="footer-bottom">
+        <div class="auto-container">
+            <div class="row m-0 align-items-center justify-content-between">
+                <div class="copyright-text">Copyright © 2023 <a href="#"> IESCE IEDC</a> All Rights Reserved.</div>
+                <ul class="menu">
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy </a></li>
+                    <li><a href="#">  Sitemap</a></li>
+                </ul>
+            </div>            
+        </div>
+    </div>
+	
+</div>
+<!--End pagewrapper-->
+
+
+
+
+
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-right-arrow-6"></span></div>
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap-select.min.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/isotope.js"></script>
+<script src="assets/js/owl.js"></script>
+<script src="assets/js/appear.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/lazyload.js"></script>
+<script src="assets/js/scrollbar.js"></script>
+<script src="assets/js/TweenMax.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/jquery.polyglot.language.switcher.js"></script>
+<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="assets/js/parallax-scroll.js"></script>
+
+<script src="assets/js/script.js"></script>
+
+
+</body>
+
+<!-- Mirrored from st.ourhtmldemo.com/new/Transida2/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Jan 2021 08:06:49 GMT -->
+</html>
+
+
+
+
+
+
